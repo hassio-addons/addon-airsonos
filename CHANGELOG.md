@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 No unreleased changes yet.
 
+## [v0.3.1] (2018-03-19)
+
+[Full Changelog][v0.3.0-v0.3.1]
+
+### Fixed
+
+- Fixes executable permission issue on amd64
+
 ## [v0.3.0] (2018-03-18)
 
 [Full Changelog][v0.2.0-v0.3.0]
@@ -47,4 +55,6 @@ No unreleased changes yet.
 [v0.1.0]: https://github.com/hassio-addons/addon-airsonos/tree/v0.1.0
 [v0.2.0-v0.3.0]: https://github.com/hassio-addons/addon-airsonos/compare/v0.2.0...v0.3.0
 [v0.2.0]: https://github.com/hassio-addons/addon-airsonos/tree/v0.2.0
+[v0.3.0-v0.3.1]: https://github.com/hassio-addons/addon-airsonos/compare/v0.3.0...v0.3.1
 [v0.3.0]: https://github.com/hassio-addons/addon-airsonos/tree/v0.3.0
+[v0.3.1]: https://github.com/hassio-addons/addon-airsonos/tree/v0.3.1
