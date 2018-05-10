@@ -6,7 +6,6 @@
 [![GitHub Activity][commits-shield]][commits]
 [![License][license-shield]](LICENSE.md)
 
-[![CircleCI][circleci-shield]][circleci]
 [![Bountysource][bountysource-shield]][bountysource]
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
@@ -303,8 +302,6 @@ SOFTWARE.
 [bitcoin]: https://blockchain.info/payment_request?address=3GVzgN6NpVtfXnyg5dQnaujtqVTEDBCtAH
 [bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
 [bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
-[circleci-shield]: https://img.shields.io/circleci/project/github/hassio-addons/addon-airsonos.svg
-[circleci]: https://circleci.com/gh/hassio-addons/addon-airsonos
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-airsonos.svg
 [commits]: https://github.com/hassio-addons/addon-airsonos/commits/master
 [contributors]: https://github.com/hassio-addons/addon-airsonos/graphs/contributors
