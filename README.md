@@ -209,12 +209,19 @@ however, all Sonos devices do properly their own buffering of HTTP audio
 starting to play), then adding silence would have introduced an extra
 unnecessary delay in playback.
 
+## Tweaking AirSonos
+
+AirSonos creates a configuration file called `airsonos.xml` in your Home
+Assistant configuration directory. This file allows you to tweak each device
+separately. Every time it finds a new device, it will be added to that file.
+
+> **NOTE**: It is HIGHLY recommended to stop the addon before making changes
+to the configuration file manually.
+
 ## Known issues and limitations
 
 - This add-on does support ARM-based devices, nevertheless, they must
   at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
-- The configuration file of AirConnect (used by this add-on) is not
-  exposed to the user. We plan on adding that feature in a future release.
 
 ## Changelog & Releases
 
