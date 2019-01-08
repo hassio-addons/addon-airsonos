@@ -53,25 +53,21 @@ devices and can try to play audio to them.
 [![Docker Version][armhf-version-shield]][armhf-microbadger]
 [![Docker Layers][armhf-layers-shield]][armhf-microbadger]
 [![Docker Pulls][armhf-pulls-shield]][armhf-dockerhub]
-[![Anchore Image Overview][armhf-anchore-shield]][armhf-anchore]
 
 [![Docker Architecture][aarch64-arch-shield]][aarch64-dockerhub]
 [![Docker Version][aarch64-version-shield]][aarch64-microbadger]
 [![Docker Layers][aarch64-layers-shield]][aarch64-microbadger]
 [![Docker Pulls][aarch64-pulls-shield]][aarch64-dockerhub]
-[![Anchore Image Overview][aarch64-anchore-shield]][aarch64-anchore]
 
 [![Docker Architecture][amd64-arch-shield]][amd64-dockerhub]
 [![Docker Version][amd64-version-shield]][amd64-microbadger]
 [![Docker Layers][amd64-layers-shield]][amd64-microbadger]
 [![Docker Pulls][amd64-pulls-shield]][amd64-dockerhub]
-[![Anchore Image Overview][amd64-anchore-shield]][amd64-anchore]
 
 [![Docker Architecture][i386-arch-shield]][i386-dockerhub]
 [![Docker Version][i386-version-shield]][i386-microbadger]
 [![Docker Layers][i386-layers-shield]][i386-microbadger]
 [![Docker Pulls][i386-pulls-shield]][i386-dockerhub]
-[![Anchore Image Overview][i386-anchore-shield]][i386-anchore]
 
 ## Configuration
 
@@ -301,24 +297,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[aarch64-anchore-shield]: https://anchore.io/service/badges/image/5f339448ba925fe3acb637eae47acb03221461e624c6cf04e0513ba839d666f2
-[aarch64-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fairsonos-aarch64%3Alatest
 [aarch64-arch-shield]: https://img.shields.io/badge/architecture-aarch64-blue.svg
 [aarch64-dockerhub]: https://hub.docker.com/r/hassioaddons/airsonos-aarch64
 [aarch64-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/airsonos-aarch64.svg
 [aarch64-microbadger]: https://microbadger.com/images/hassioaddons/airsonos-aarch64
 [aarch64-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/airsonos-aarch64.svg
 [aarch64-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/airsonos-aarch64.svg
-[amd64-anchore-shield]: https://anchore.io/service/badges/image/bb9cfb5d2abe2240fa95e3ec6b34340ecca668f9f0a0d49a950a3656fb061931
-[amd64-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fairsonos-amd64%3Alatest
 [amd64-arch-shield]: https://img.shields.io/badge/architecture-amd64-blue.svg
 [amd64-dockerhub]: https://hub.docker.com/r/hassioaddons/airsonos-amd64
 [amd64-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/airsonos-amd64.svg
 [amd64-microbadger]: https://microbadger.com/images/hassioaddons/airsonos-amd64
 [amd64-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/airsonos-amd64.svg
 [amd64-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/airsonos-amd64.svg
-[armhf-anchore-shield]: https://anchore.io/service/badges/image/0737d267e0c11f7ebd690eeb09aed6769cbe91f2bf50ed3fcbd827642b74302d
-[armhf-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fairsonos-armhf%3Alatest
 [armhf-arch-shield]: https://img.shields.io/badge/architecture-armhf-blue.svg
 [armhf-dockerhub]: https://hub.docker.com/r/hassioaddons/airsonos-armhf
 [armhf-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/airsonos-armhf.svg
@@ -339,8 +329,6 @@ SOFTWARE.
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-airsonos/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-airsonos/pipelines
 [home-assistant]: https://home-assistant.io
-[i386-anchore-shield]: https://anchore.io/service/badges/image/3273590616b622c17a3dd34f79023aa3fe9d886a76a3f4feb69bb43a9c40e5db
-[i386-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fairsonos-i386%3Alatest
 [i386-arch-shield]: https://img.shields.io/badge/architecture-i386-blue.svg
 [i386-dockerhub]: https://hub.docker.com/r/hassioaddons/airsonos-i386
 [i386-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/airsonos-i386.svg
