@@ -24,7 +24,7 @@ COPY rootfs /
 ARG BUILD_ARCH=amd64
 COPY bin/airsonos-${BUILD_ARCH} /usr/bin/airsonos
 
-# Build arugments
+# Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
