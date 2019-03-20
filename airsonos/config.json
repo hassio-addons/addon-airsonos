@@ -34,8 +34,5 @@
     "latency_rtp": "int",
     "latency_http": "int",
     "drift": "bool"
-  },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   }
 }
