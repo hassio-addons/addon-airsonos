@@ -20,7 +20,6 @@
     "config:rw"
   ],
   "options": {
-    "log_level": "info",
     "address": "",
     "port": 49152,
     "latency_rtp": 1000,
@@ -28,7 +27,7 @@
     "drift": false
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "address": "str",
     "port": "port",
     "latency_rtp": "int",
