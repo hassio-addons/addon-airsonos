@@ -13,7 +13,6 @@
   ],
   "boot": "auto",
   "hassio_api": true,
-  "homeassistant_api": false,
   "hassio_role": "default",
   "host_network": true,
   "map": [
