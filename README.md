@@ -41,17 +41,14 @@ Since Sonos uses UPnP, the add-on might also work for other UPnP players
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
-1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
-1. Install the "AirSonos" add-on.
+1. Search for the “AirSonos” add-on in the Hass.io add-on store
+   and install it.
 1. Start the "AirSonos" add-on
 1. Check the logs of the "AirSonos" add-on to see if everything went well.
 
 After ~30 seconds you should see some log messages appear in the add-on log.
 Using your iOS/Mac/iTunes/Airfoil/other clients, you should now see new AirPlay
 devices and can try to play audio to them.
-
-**NOTE**: Do not add this repository to Hass.io, please use:
-`https://github.com/hassio-addons/repository`.
 
 ## Configuration
 
