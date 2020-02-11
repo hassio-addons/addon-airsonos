@@ -1,6 +1,6 @@
 #!/usr/bin/execlineb -S0
 # ==============================================================================
-# Community Hass.io Add-ons: AirSonos
+# Community Home Assistant Add-on: AirSonos
 # Take down the S6 supervision tree when the AirSonos server fails
 # ==============================================================================
 if -n { s6-test $# -ne 0 }

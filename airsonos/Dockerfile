@@ -45,4 +45,4 @@ LABEL \
     org.label-schema.usage="https://github.com/hassio-addons/addon-airsonos/tree/master/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
     org.label-schema.vcs-url="https://github.com/hassio-addons/addon-airsonos" \
-    org.label-schema.vendor="Community Hass.io Add-ons"
+    org.label-schema.vendor="Community Home Assistant Add-ons"

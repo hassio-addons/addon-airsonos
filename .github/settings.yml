@@ -1,8 +1,8 @@
 ---
 repository:
-  description: "AirSonos - Community Hass.io Add-on for Home Assistant"
+  description: "AirSonos - Community Home Assistant Add-ons"
   homepage: https://addons.community
-  topics: airsonos, airplay, sonos, unpnp, hassio-addons, hassio, hass, home-assistant, homeassistant
+  topics: airsonos, airplay, sonos, unpnp, addon, addons, home-assistant, homeassistant
   private: false
   has_issues: true
   has_projects: false
