@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Home Assistant Add-on: AirSonos
+# Home Assistant Community Add-on: AirSonos
 # Runs the AirSonos server
 # ==============================================================================
 declare -a options

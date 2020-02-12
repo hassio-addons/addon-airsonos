@@ -1,6 +1,6 @@
 ---
 repository:
-  description: "AirSonos - Community Home Assistant Add-ons"
+  description: "AirSonos - Home Assistant Community Add-ons"
   homepage: https://addons.community
   topics: airsonos, airplay, sonos, unpnp, addon, addons, home-assistant, homeassistant
   private: false

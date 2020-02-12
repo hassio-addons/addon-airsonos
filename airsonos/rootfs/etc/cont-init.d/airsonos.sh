@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Home Assistant Add-on: AirSonos
+# Home Assistant Community Add-on: AirSonos
 # Checks latency settings before starting the AirSonos server
 # ==============================================================================
 declare latency
