@@ -11,7 +11,6 @@
   "host_network": true,
   "map": ["config:rw"],
   "options": {
-    "address": "",
     "port": 49152,
     "latency_rtp": 1000,
     "latency_http": 2000,
@@ -19,7 +18,7 @@
   },
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-    "address": "str",
+    "address": "str?",
     "port": "port",
     "latency_rtp": "int",
     "latency_http": "int",
