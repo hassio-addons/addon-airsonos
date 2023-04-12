@@ -4,7 +4,7 @@
 <enabled>1</enabled>
 <stop_receiver>0</stop_receiver>
 <latency></latency>
-<codec>pcm</codec>
+<codec>wav</codec>
 <artwork></artwork>
 </common>
 <main_log>info</main_log>
