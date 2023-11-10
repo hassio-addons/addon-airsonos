@@ -14,7 +14,8 @@ arch:
 hassio_api: true
 host_network: true
 map:
-  - config:rw
+  - addon_config:rw
+  - homeassistant_config:rw
 options:
   port: 49152
   latency_rtp: 1000
