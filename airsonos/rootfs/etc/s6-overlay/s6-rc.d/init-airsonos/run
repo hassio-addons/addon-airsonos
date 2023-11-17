@@ -8,7 +8,7 @@ declare latency
 
 # Migrate add-on data from the Home Assistant config folder,
 # to the add-on configuration folder.
-if ! bashio::fs.directory_exists '/config/airsonos.xml' \
+if ! bashio::fs.file_exists '/config/airsonos.xml' \
     && bashio::fs.file_exists '/homeassistant/airsonos.xml'; then
     mv /homeassistant/airsonos.xml /config/airsonos.xml \
         || bashio::exit.nok "Failed to migrate AirSonos configuration"
