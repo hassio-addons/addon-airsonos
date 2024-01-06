@@ -8,9 +8,31 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Copy root filesystem
 COPY rootfs /
 
-# Add airsonos binary
+# Setup base
 ARG BUILD_ARCH=amd64
-COPY bin/airsonos-${BUILD_ARCH} /usr/bin/airsonos
+ARG AIRCONNECT_VERSION="1.2.0"
+RUN \
+    apt-get update \
+    && apt-get install -y --no-install-recommends \
+        unzip=6.0-28 \
+    \
+    && curl -J -L -o /tmp/airconnect.zip \
+      "https://github.com/philippe44/AirConnect/releases/download/${AIRCONNECT_VERSION}/AirConnect-${AIRCONNECT_VERSION}.zip" \
+    && unzip -d /tmp /tmp/airconnect.zip \
+    \
+    && if [ "${BUILD_ARCH}" = "aarch64" ]; then AIRCONNECT_ARCH="aarch64"; \
+    elif [ "${BUILD_ARCH}" = "amd64" ]; then AIRCONNECT_ARCH="x86_64"; \
+    elif [ "${BUILD_ARCH}" = "armv7" ]; then AIRCONNECT_ARCH="arm"; fi \
+    \
+    && cp "/tmp/airupnp-linux-${AIRCONNECT_ARCH}-static" /usr/bin/airsonos \
+    && chmod a+x /usr/bin/airsonos \
+    \
+    && apt-get purge -y --auto-remove \
+        unzip \
+    && rm -fr \
+        /tmp/* \
+        /var/{cache,log}/* \
+        /var/lib/apt/lists/*
 
 # Build arguments
 ARG BUILD_ARCH
