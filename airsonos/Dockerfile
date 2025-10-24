@@ -14,7 +14,7 @@ ARG AIRCONNECT_VERSION="1.8.3"
 RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends \
-        unzip=6.0-28 \
+        unzip=6.0-29 \
     \
     && curl -J -L -o /tmp/airconnect.zip \
       "https://github.com/philippe44/AirConnect/releases/download/${AIRCONNECT_VERSION}/AirConnect-${AIRCONNECT_VERSION}.zip" \
