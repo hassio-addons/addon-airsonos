@@ -97,6 +97,13 @@ has to buffer the HTTP audio.
 
 Set to `true` to let timing reference drift (no click).
 
+### Option: `name_format`
+
+Changes how the name of the device is displayed in AirPlay menus. The default
+is the speaker name followed by a `+` (e.g., `Main Bedroom+`). You can use a
+string with `%s` representing the device's name. For example, setting this 
+value to `%s [AS]` would show `Main Bedroom [AS]`.
+
 ## Sonos hints and limitations
 
 When a Sonos group is created, only the master of that group will appear as

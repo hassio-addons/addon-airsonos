@@ -51,5 +51,10 @@ if bashio::config.true 'drift'; then
     options+=(-r)
 fi
 
+# Set custom name format
+if bashio::config.has_value 'name_format'; then
+    options+=(-n "$(bashio::config 'name_format')")
+fi
+
 # Run the AirSonos server
 exec airsonos "${options[@]}"
