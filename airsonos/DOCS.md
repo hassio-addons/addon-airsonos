@@ -44,7 +44,7 @@ port: 49152
 latency_rtp: 1000
 latency_http: 2000
 drift: true
-name_format: "%s [AS]
+name_format: "%s [AS]"
 ```
 
 **Note**: _This is just an example, don't copy and past it! Create your own!_
