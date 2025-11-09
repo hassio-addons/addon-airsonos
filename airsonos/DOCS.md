@@ -44,6 +44,7 @@ port: 49152
 latency_rtp: 1000
 latency_http: 2000
 drift: true
+name_format: "%s [AS]"
 ```
 
 **Note**: _This is just an example, don't copy and past it! Create your own!_
@@ -96,6 +97,13 @@ has to buffer the HTTP audio.
 ### Option: `drift`
 
 Set to `true` to let timing reference drift (no click).
+
+### Option: `name_format`
+
+Changes how the name of the device is displayed in AirPlay menus. The default
+is the speaker name followed by a `+` (e.g., `Main Bedroom+`). You can use a
+string with `%s` representing the device's name. For example, setting this 
+value to `%s [AS]` would show `Main Bedroom [AS]`.
 
 ## Sonos hints and limitations
 

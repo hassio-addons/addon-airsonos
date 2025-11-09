@@ -19,6 +19,7 @@ options:
   latency_rtp: 1000
   latency_http: 2000
   drift: false
+  name_format: "%s+"
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   address: str?
@@ -26,3 +27,4 @@ schema:
   latency_rtp: int
   latency_http: int
   drift: bool
+  name_format: str
